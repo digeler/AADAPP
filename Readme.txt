@@ -1,0 +1,1 @@
+dotnet new mvc --auth SingleOrg --client-id ***** --tenant-id 3**** --domain ***.onmicrosoft.com 
