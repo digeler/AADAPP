@@ -18,11 +18,11 @@ namespace aad
              .ConfigureKestrel((context, options) =>
         {
             options.Listen(IPAddress.Any,5000);
-            // options.Listen(IPAddress.Any,5001,listenOptions => 
-            // {
-            //     listenOptions.UseHttps("certificate.pfx","dinor111");
+            options.Listen(IPAddress.Any,5001,listenOptions => 
+            {
+                listenOptions.UseHttps("certificate.pfx","dinor111");
 
-            // });
+            });
             
 
         })
